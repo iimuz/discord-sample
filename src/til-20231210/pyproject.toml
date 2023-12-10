@@ -8,7 +8,9 @@ requires-python = ">=3.10"
 urls = {repository = "https://github.com/iimuz/til/src/til-20231210"}
 version = "1.0.0"
 
-dependencies = []
+dependencies = [
+  "discord.py",
+]
 
 [tools.setuptools.package-dir]
 discord_bot_sample = "src"
